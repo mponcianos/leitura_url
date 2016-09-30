@@ -18,6 +18,7 @@ respData = resp.read()
 soup = BeautifulSoup(respData, 'html.parser')
 
 print(soup.prettify())
+print(soup.title)
 
 
 
